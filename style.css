@@ -1,6 +1,4 @@
-*{
-    border-size: border-box;
-}
+
 
 html, body{
     margin: 0;
@@ -8,10 +6,10 @@ html, body{
     background: #1c1c1c;
 }
 
-header, footer{
+header{
     width: 100%;
     height: 70px;
-    background: black;
+    
     margin-top: 0;
     color: white;
     padding-top: 20px;
@@ -22,7 +20,7 @@ header, footer{
 
 #takeDetails{
     height: 400px;
-    width: 30%;
+    width: 50%;
     background: white;
     margin-left: auto;
     margin-right: auto;
@@ -60,8 +58,26 @@ header, footer{
     padding-bottom: 15px;
 
 }
+footer{
+    width: 100%;
+    height: 70px;
+    background: black;
+    margin-top: 0;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
 
-@media only screen and (max-width: 900px){
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    #takeDetails{
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 900px){
     #takeDetails{
         width: 70%;
     }
